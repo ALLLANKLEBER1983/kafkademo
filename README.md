@@ -12,4 +12,5 @@ subir o kafka : kafka-server-start.sh /home/mcv/kafka/config/server.properties
 criar uma mensagem no consumer : kafka-console-producer.sh --broker-list  localhost:9092 --topic testejava
 
 
-criar um tópico : kafka-topics.sh --bootstrap-server localhost:9092 --create --topic testejava --partitions 4
+criar um tópico :  kafka-topics.sh --bootstrap-server localhost:9092 --create --topic venda-ingressos --partitions 1 --replication-factor 1
+
